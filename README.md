@@ -8,4 +8,4 @@ data sheet:
 ```
 ## week_11
 Please solve the the following function with ceress library and minimize the x1, x2, x3 and x4.
-
+![image](https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_11.png)
