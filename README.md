@@ -1,7 +1,7 @@
 
 # week_3
 please plot the bellowing photo with Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w) and show on the rviz.
-
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3.png" width="40%" height="40%">
 
 # week_10
 Please use Kalman filter to pedict the path(v0 = 2 ,a = 2).
@@ -13,4 +13,5 @@ data sheet:
 ```
 # week_11
 Please solve the the following function with ceress library and minimize the x1, x2, x3 and x4.
-![image](https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_11.png)
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_11.png" width="40%" height="30%">
+
