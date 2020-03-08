@@ -19,7 +19,7 @@
 please plot the bellowing photo with Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w) and show on the rviz.
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3.png" width="40%" height="40%">
 
-####reminder
+#### reminder
 1.watch all code in the src.
 2.Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w)
 ---
@@ -36,6 +36,6 @@ data sheet:
 Please solve the the following function with ceress library and minimize the x1, x2, x3 and x4.
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_11.png" width="40%" height="30%">
 
-####reminder
+#### reminder
 1.Install ceress
 2.cf http://ceres-solver.org/
