@@ -1,0 +1,6 @@
+<launch>
+
+	<node pkg="week_3" type="final_work" name="final_work" output="screen" required="true"></node> 
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find week_3)/rviz/config_file.rviz" />  
+
+</launch>
