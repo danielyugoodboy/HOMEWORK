@@ -1,4 +1,5 @@
 # 108 年度 機器人學：多軸旋翼機 
+
 ### week1
 * [ros tutorial chinese version](http://wiki.ros.org/cn/ROS/Tutorials)
 * [ros tutorial english version](http://wiki.ros.org/ROS/Tutorials)
@@ -18,9 +19,12 @@
 please plot the bellowing photo with Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w) and show on the rviz.
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3.png" width="40%" height="40%">
 
+####reminder
+1.watch all code in the src.
+2.Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w)
 ---
 ### week10
-Please use Kalman filter to pedict the path(v0 = 2 ,a = 2).
+Please find Kalman filter on network and use Kalman filter to pedict the path(v0 = 2 ,a = 2).
 The following is the data sheet which has been interfered by gaussian.
 
 data sheet:
@@ -32,3 +36,6 @@ data sheet:
 Please solve the the following function with ceress library and minimize the x1, x2, x3 and x4.
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_11.png" width="40%" height="30%">
 
+####reminder
+1.Install ceress
+2.cf http://ceres-solver.org/
