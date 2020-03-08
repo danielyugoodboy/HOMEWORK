@@ -20,8 +20,8 @@ please plot the bellowing photo with Eigen::quaterniond(w x y z) and tf::Quatern
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3.png" width="40%" height="40%">
 
 #### reminder
-1.watch all code in the src.
-2.Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w)
+* watch all code in the src.
+* Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w)
 
 ---
 ### week10
@@ -38,5 +38,5 @@ Please solve the the following function with ceress library and minimize the x1,
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_11.png" width="40%" height="30%">
 
 #### reminder
-1.Install ceress
-2.cf http://ceres-solver.org/
+* Install ceress
+* cf http://ceres-solver.org/
