@@ -17,7 +17,7 @@
 ---
 ### week3
 please plot the bellowing photo with Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w) and show on the rviz.
-<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3.png" width="40%" height="40%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3_2.png" width="40%" height="40%">
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3_1.png" width="40%" height="20%">
 
 #### reminder
