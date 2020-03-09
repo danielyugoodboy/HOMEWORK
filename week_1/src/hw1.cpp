@@ -1,9 +1,3 @@
-/*
-  Author : Chad Lin
-  Target : Keyboard Control
-  Date : 11/07 2018
-*/
-
 // include ros library
 #include "ros/ros.h"
 
