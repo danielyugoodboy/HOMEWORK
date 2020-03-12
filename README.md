@@ -17,7 +17,8 @@
 ```
 ---
 ### week3
-please plot the bellowing photo with Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w) and show on the rviz.
+1.Please plot the bellowing photo with Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w) and show on the rviz.
+2.You must note the direction of arrow.If you A point B which means A translate to B.
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3_2.png" width="40%" height="40%">
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3_1.png" width="40%" height="20%">
 
