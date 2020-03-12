@@ -27,7 +27,7 @@
 
 #### reminder
 * watch all code in the src.
-* Eigen::Quaternion(w x y z) and tf::Quaternion(x y z w)
+* Eigen::Quaterniond(w x y z) and tf::Quaternion(x y z w)
 
 ---
 ### week10
