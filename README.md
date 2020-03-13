@@ -2,20 +2,40 @@
 # 108 年度 機器人學：多軸旋翼機 
 
 ### week1
-* [ros tutorial chinese version](http://wiki.ros.org/cn/ROS/Tutorials)
-* [ros tutorial english version](http://wiki.ros.org/ROS/Tutorials)
+Refer to http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29 for more understanding of the code.
+
 ---
 ## 題目
 鍵盤控制，請搜尋鍵盤對應的ASCII code，做出鍵盤控制turtlesim的功能
-### 提示
-	switch() ...
+
 ### 指令
 ```
 	roscore
 	roslaunch HW1 turtle_setting.launch
 	rosrun HW1 hw1 
 ```
+1. 
+Ros node start from main, initialize ros node handler.
+
+2. 
+Declare ros publisher as massage type "geometry_msgs::Twist" and topic name "/turtle1/cmd_vel".
+Define ros rate 100 Hz, duration for running the node will be 0.01 second.
+
+3.
+Once the node enter this session, while loop will keep running and return unless ros is shutdown.
+Function of KeyboardControl will be perform and "vel_msg" will publish through turtlesim_pub.
+You may check the publish topic rate which should be 100 Hz, by command rostopic hz /turtle1/cmd_vel.
+
+4.
+KeyboardControl get keybroad command and you should implement switch to value of "vel_msg".
+ASCII table may be find here in 可顯示字元/十進位 https://zh.wikipedia.org/wiki/ASCII.
+One should notice that big and small capital have different value, e.g. small capital of "i" has the value of "105". You may press the key and check the result while printing.
+
+5.
+Function of reading keybroad.
+Refer to getch part in https://edisonx.pixnet.net/blog/post/35585720.
 ---
+
 ### week3
 1. Please plot the bellowing photo with Eigen::quaterniond(w x y z) and tf::Quaternion(x y z w) and show on the rviz.
 2. You must note the direction of arrow.If you A point B which means A translate to B.
