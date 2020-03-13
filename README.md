@@ -31,7 +31,7 @@ KeyboardControl get keybroad command and you should implement switch to value of
 ASCII table may be find here in 可顯示字元/十進位 https://zh.wikipedia.org/wiki/ASCII.
 One should notice that big and small capital have different value, e.g. small capital of "i" has the value of "105". You may press the key and check the result while printing.
 
-<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_5.png" width="80%" height="40%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_5.png" width="70%" height="40%">
 Function of reading keybroad
 
 Refer to getch part in https://edisonx.pixnet.net/blog/post/35585720.
