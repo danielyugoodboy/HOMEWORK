@@ -42,8 +42,8 @@ Refer to getch part in https://edisonx.pixnet.net/blog/post/35585720.
 3. photo_1 is input B -> A and C -> A, output B -> C.
 4. photo_2 is input A -> B(rotation z 90度) and B -> C(rotation 60), output A -> C.
 
-<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3_2.png" width="40%" height="40%">
-<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/week_3_1.png" width="40%" height="20%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_2.png" width="40%" height="40%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_3_1.png" width="40%" height="20%">
 
 #### reminder
 * watch all code in the src.
