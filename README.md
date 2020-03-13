@@ -14,24 +14,24 @@ Refer to http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%
 	roslaunch HW1 turtle_setting.launch
 	rosrun HW1 hw1 
 ```
-<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_1.png" width="40%" height="40%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_1.png" width="80%" height="40%">
 Ros node start from main, initialize ros node handler.
 
-<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_2.png" width="40%" height="40%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_2.png" width="80%" height="40%">
 Declare ros publisher as massage type "geometry_msgs::Twist" and topic name "/turtle1/cmd_vel".
 Define ros rate 100 Hz, duration for running the node will be 0.01 second.
 
-3. <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_3.png" width="40%" height="40%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_3.png" width="80%" height="40%">
 Once the node enter this session, while loop will keep running and return unless ros is shutdown.
 Function of KeyboardControl will be perform and "vel_msg" will publish through turtlesim_pub.
 You may check the publish topic rate which should be 100 Hz, by command ```rostopic hz /turtle1/cmd_vel```
 
-4. <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_4.png" width="40%" height="40%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_4.png" width="80%" height="40%">
 KeyboardControl get keybroad command and you should implement switch to value of "vel_msg".
 ASCII table may be find here in 可顯示字元/十進位 https://zh.wikipedia.org/wiki/ASCII.
 One should notice that big and small capital have different value, e.g. small capital of "i" has the value of "105". You may press the key and check the result while printing.
 
-5. <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_5.png" width="40%" height="40%">
+<img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_5.png" width="80%" height="40%">
 Function of reading keybroad
 
 Refer to getch part in https://edisonx.pixnet.net/blog/post/35585720.
