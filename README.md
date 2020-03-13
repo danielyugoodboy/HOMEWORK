@@ -32,10 +32,9 @@ One should notice that big and small capital have different value, e.g. small ca
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_4.png" width="80%" height="40%">
 
 Function of reading keybroad
+Refer to getch part in https://edisonx.pixnet.net/blog/post/35585720.
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_5.png" width="70%" height="30%">
 
-
-Refer to getch part in https://edisonx.pixnet.net/blog/post/35585720.
 ---
 
 ### week3
