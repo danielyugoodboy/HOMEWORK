@@ -1,7 +1,7 @@
 ![image](https://github.com/Robotics-Aerial-Robots/Homework/blob/master/LOGO%20中英文橫.png)
 # 108 年度 機器人學：多軸旋翼機 
 
-### week1
+### HW1
 Refer to http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29 for more understanding of the code.
 
 ---
