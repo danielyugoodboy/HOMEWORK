@@ -45,6 +45,7 @@ void KeyboardControl()
   int c = getch();
   if (c != EOF)
   {
+	std::cout<< "c variable"<< c <<std::endl;
 	/*Please input your codes here*/
   }
 }
@@ -68,9 +69,9 @@ int main(int argc, char **argv)
     KeyboardControl();
 
     turtlesim_pub.publish(vel_msg);
-    printf("\ncount : %d\n",count);
-    printf("linear\t %f \n",vel_msg.linear.x);
-    printf("angular\t %f \n",vel_msg.angular.z);
+	std::cout<<"count :"<< count <<std::endl;
+	std::cout<<"linear :"<< vel_msg.linear.x <<std::endl;
+	std::cout<<"angular :"<< vel_msg.angular.z <<std::endl;
 
     count ++;
     ros::spinOnce();
