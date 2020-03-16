@@ -12,7 +12,7 @@ Refer to http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%
 ```
 	roscore
 	roslaunch HW1 turtle_setting.launch
-	rosrun HW1 hw1 
+	rosrun week_1 hw1 
 ```
 Ros node start from main, initialize ros node handler.
 <img src="https://github.com/Robotics-Aerial-Robots/Homework/blob/master/photo/week_1_1.png" width="80%" height="40%">
