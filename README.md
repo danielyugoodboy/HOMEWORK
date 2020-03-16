@@ -11,7 +11,7 @@ Refer to http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%
 ### 指令
 ```
 	roscore
-	roslaunch HW1 turtle_setting.launch
+	roslaunch week_1 turtle_setting.launch
 	rosrun week_1 hw1 
 ```
 Ros node start from main, initialize ros node handler.
