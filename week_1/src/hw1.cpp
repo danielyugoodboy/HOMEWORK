@@ -4,7 +4,7 @@
 // include msg library
 #include <geometry_msgs/Twist.h>
 
-// include cpp library 
+// include cpp library
 #include <cstdio>
 #include <unistd.h>
 #include <termios.h>
@@ -47,9 +47,27 @@ void KeyboardControl()
   {
 	std::cout<< "c variable"<< c <<std::endl;
 	/*Please input your codes here*/
+    if (c == 'w'){
+        vel_msg.linear.x += 0.5;
+    }
+    if (c == 's'){
+        vel_msg.linear.x += -0.5;
+    }
+    if (c == 'a'){
+        vel_msg.angular.z += 0.5;
+    }
+    if (c == 'd'){
+        vel_msg.angular.z += -0.5;
+    }
+    if (c == 'q'){
+        vel_msg.linear.x = 0;
+        vel_msg.angular.z = 0;
+    }
   }
 }
 
+
+// Ros node start from main, initialize ros node handler.
 int main(int argc, char **argv)
 {
   ros::init(argc, argv, "tutorial_1");
@@ -64,8 +82,9 @@ int main(int argc, char **argv)
   printf("KeyboardControl start\n");
 
   int count = 0;
+  printf("Use : (w s a d) to control and (s) to stop ");
   while (ros::ok()){
-  
+
     KeyboardControl();
 
     turtlesim_pub.publish(vel_msg);
@@ -79,6 +98,3 @@ int main(int argc, char **argv)
   }
   return 0;
 }
-
-
-
